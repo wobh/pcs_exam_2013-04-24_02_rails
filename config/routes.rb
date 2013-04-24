@@ -1,4 +1,12 @@
 PcsExam2013042402Rails::Application.routes.draw do
+  get "static/about"
+
+  get "static/contact"
+
+  get "user/show"
+
+  get "user/index"
+
   resources :cards
 
 
