@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Color:
+  = @card.color
+%p
+  %b Family:
+  = @card.family
+%p
+  %b Number:
+  = @card.number
+
+= link_to 'Edit', edit_card_path(@card)
+\|
+= link_to 'Back', cards_path
